@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DynamicDatasourceApplication {
 
     public static void main(String[] args) {
+        System.err.println("第一次提交");
         SpringApplication.run(DynamicDatasourceApplication.class, args);
     }
 
