@@ -13,6 +13,7 @@ public class DynamicDatasourceApplication {
         System.err.println("第一次提交");
         System.err.println("第二次提交");
         System.err.println("第3次提交");
+        System.err.println("第4次提交");
         SpringApplication.run(DynamicDatasourceApplication.class, args);
     }
 
